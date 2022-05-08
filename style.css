@@ -1,0 +1,41 @@
+
+
+fieldset {
+    padding-left: 0%;
+    font-size: 28px;
+
+    color: rgb(111, 111, 111);
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 2px 1px 9px 3px rgb(0, 0, 0);
+}
+
+legend {
+    color:rgb(246, 255, 0);
+    background-color: rgb(98, 89, 89);
+    text-align: center;
+}
+
+.h1 {
+    font-size: 2rem;
+}
+
+.code-title {
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+
+    width: max-width;
+}
+
+.token.attr-name, .token.deleted, .token.namespace, .token.tag {
+    color: #0265a2;
+}
+
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variable {
+    color: #a85214;
+}
+
+.token.punctuation {
+    color: #009dff;
+}
